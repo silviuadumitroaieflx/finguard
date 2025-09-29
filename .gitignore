@@ -1,4 +1,5 @@
 data/*.csv
+!data/sample_paysim_500.csv
 data/*.zip
 data/*.parquet
 data/*.feather
