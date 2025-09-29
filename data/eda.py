@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
-df = pd.read_csv("PS_20174392719_1491204439457_log.csv")
+df = pd.read_csv("data/PS_20174392719_1491204439457_log.csv")
 
 # cate tranzactii sunt fraude 
 print(df["isFraud"].value_counts())
